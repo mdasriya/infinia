@@ -35,19 +35,13 @@ import Avatar4Img from './assets/img/avatar-4.png';
 export const navigation = [
   {
     name: 'home',
-    href: 'home',
+    href: '/',
+    drop: false,
   },
   {
-    name: 'about',
+    name: 'about us',
     href: 'about',
-  },
-  {
-    name: 'features',
-    href: 'features',
-  },
-  {
-    name: 'contact',
-    href: 'contact',
+    drop: false,
   },
 ];
 
@@ -99,9 +93,9 @@ export const features = {
   ],
   feature2: {
     image: <Features2Img />,
-    title: 'The Best Furniture Manufacturer of your choice',
+    title: 'Recycel plastic sheets WPC Door frames and Particle Boards',
     subtitle:
-      'Furnitre power is a software as services for multiperpose business management system, expecially for them who are running two or more business exploree the future Furnitre power is a software as services.',
+      'We are counted amongst the known manufacturer of Recycel plastic sheets WPC Door frames and Particle Boards etc. We offer these products at most affordable prices. always Ready to give services to our all customers.',
   },
 };
 
@@ -112,20 +106,40 @@ export const newInStore = {
   icon: <IoIosArrowRoundForward />,
   products: [
     {
-      name: 'chair',
+      name: 'Shuttering & Framework',
       image: <ChairImg />,
     },
     {
-      name: 'bed',
+      name: 'Solid Plaine Door',
       image: <BedImg />,
     },
     {
-      name: 'cupboard',
+      name: 'Door & Doors Frame',
       image: <CupboardImg />,
     },
     {
-      name: 'lighting',
+      name: 'Board & Panel',
       image: <LightingImg />,
+    },
+    {
+      name: 'Sliding Windows',
+      image: <ChairImg />,
+    },
+    {
+      name: 'WPC Tubular',
+      image: <BedImg />,
+    },
+    {
+      name: 'WPC Flooring',
+      image: <CupboardImg />,
+    },
+    {
+      name: 'Plank & Battens',
+      image: <LightingImg />,
+    },
+    {
+      name: 'Routed Doors',
+      image: <ChairImg />,
     },
   ],
 };
@@ -292,24 +306,27 @@ export const testimonial = {
   persons: [
     {
       avatar: <Avatar1Img />,
-      name: 'Josh Smith',
-      occupation: 'Manager of The New York Times',
+      name: 'Mayuri Yerche',
+      occupation: 'Nagpur, Maharashtra',
+      date: '06-February-24',
       message:
-        '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+        '“Best quality products at a reasonable”',
     },
     {
       avatar: <Avatar2Img />,
-      name: 'Brandi Johns',
-      occupation: 'Manager of The New York Times',
+      name: 'Pallavi Rawte',
+      occupation: 'Nagpur, Maharashtra',
+      date: '08-April-23',
       message:
-        '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+        '“Thanks INFINIAFOR YOUR RESPONSE,RATE & SERVICE”',
     },
     {
       avatar: <Avatar3Img />,
-      name: 'Paula Pfeffer',
-      occupation: 'Manager of The New York Times',
+      name: 'Ankit Meshram',
+      occupation: 'Nagpur, Maharashtra',
+      date: '13-June-23',
       message:
-        '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+        '“Thank you,sir give a best solution for me and pleaser to talked to you”',
     },
   ],
 };
@@ -325,19 +342,16 @@ export const footer = {
   social: [
     {
       icon: <IoLogoYoutube />,
-      href: '#',
+      href: 'https://www.youtube.com/@InfiniaIndia',
     },
     {
       icon: <IoLogoInstagram />,
       href: '#',
     },
-    {
-      icon: <IoLogoGithub />,
-      href: '#',
-    },
+
     {
       icon: <IoLogoFacebook />,
-      href: '#',
+      href: 'https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fwww.infiniaindia.in%252F&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=mr_IN',
     },
   ],
   copyright: 'FurniShop 2022 - All Rights Reserved.',

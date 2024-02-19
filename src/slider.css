@@ -13,6 +13,15 @@
   z-index: 20;
 }
 
+/* .image_slider_outer{
+  margin-top: 155px;
+} */
+.imageSlider{
+  margin: 20px;
+  margin-top: 80px;
+  
+}
+
 .productSlider .swiper-button-prev:hover,
 .productSlider .swiper-button-next:hover,
 .testimonialSlider .swiper-button-prev:hover,
@@ -39,6 +48,53 @@
 .productSlider .swiper-pagination {
   bottom: 20px;
 }
+
+/* image Slider start */
+.imageSlider .swiper-pagination-bullet {
+  background: #23262f;
+}
+
+.imageSlider .swiper-button-prev,
+.imageSlider .swiper-button-next {
+  background: #23262f;
+  box-shadow: 0px 4px 10px rgba(15, 27, 51, 0.1);
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 20;
+}
+
+.imageSlider .swiper-button-prev:hover,
+.imageSlider .swiper-button-next:hover,
+.testimonialSlider .swiper-button-prev:hover,
+.testimonialSlider .swiper-button-next:hover {
+  background: #286f6c;
+  transition: all 0.25s ease-in-out;
+}
+
+.imageSlider .swiper-button-prev {
+  left: 4%;
+}
+.imageSlider .swiper-button-next {
+  right: 4%;
+}
+
+.imageSlider .swiper-button-prev:after,
+.imageSlider .swiper-button-next:after,
+.testimonialSlider .swiper-button-prev:after,
+.testimonialSlider .swiper-button-next:after {
+  font-size: 16px;
+  color: white;
+}
+
+.imageSlider .swiper-pagination {
+  bottom: 20px;
+}
+/* image Slider end */
+
+
+
 
 .testimonialSlider .swiper-button-prev,
 .testimonialSlider .swiper-button-next {
@@ -68,3 +124,65 @@
     display: none;
   }
 }
+@media (max-width: 950px) {
+  .imageSlider{
+    margin-top: -80px;
+  }
+}  
+@media (max-width: 560px) {
+  .imageSlider{
+    margin-bottom: -240px;
+  }
+}  
+  
+
+ @media (min-width: 500px) and (max-width: 639px) {
+  .site_Address{
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .slider{
+height: 400px;
+  }
+  .imageSlider .swiper-pagination {
+    bottom: 220px;
+  }
+  .imageSlider .swiper-button-prev {
+    top: 25%;
+  }
+  .imageSlider .swiper-button-next {
+    top: 25%;
+  }
+ 
+} 
+ /* @media (min-width: 400px) and (max-width: 499px) {
+  .site_Address{
+    width: 90%;
+     margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .imageSlider{
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 1px;
+  }
+  .image_slider_container{
+ height: 100%;
+ object-fit: cover;
+  }
+ 
+  .imageSlider .swiper-button-prev {
+    left: 4%;
+  }
+  .imageSlider .swiper-button-next {
+    right: 4%;
+  }
+}  */
+  @media (min-width: 300px) and (max-width: 399px) {
+.my_logo{
+  height: 8px;
+}
+}  
+
