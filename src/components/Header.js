@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 // import Logo
-import Logo from "../assets/img/logo.svg";
+import Logo from "../assets/img/INFINIA_LOGO.png";
 
 // import Icons
 import { CgMenuRight, CgClose } from "react-icons/cg";
@@ -21,7 +21,7 @@ import { PhoneIcon, PlayCircleIcon } from "@heroicons/react/20/solid";
 import { Fragment } from "react";
 import { Dialog, Disclosure, Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 // import RelatedProducts from "../pages/RelatedProducts";
 
 function classNames(...classes) {
@@ -121,10 +121,12 @@ const navigate = useNavigate()
     });
   });
 
+console.log("bg", bg)
+
   return (
     <header
       className={`${
-        bg ? "bg-primary  lg:py-6" : "bg-none"
+        bg ? "bg-white  lg:py-6 shadow-md" : "bg-none"
       } fixed left-0 w-full py-8 z-10 transition-all duration-200 px-10`}
     >
       <div className="contianer mx-auto">
@@ -132,40 +134,26 @@ const navigate = useNavigate()
           {/* logo */}
           <a href="/">
             {/* <img className="h-6 lg:h-10 lg:w-full " src={Logo} alt="" /> */}
-            <h1 className="my_logo title text-white h-6 lg:h-8 sm:h-2 ssm:h-2 mv:h-2 text-3xl">Infinia</h1>
+            <h1 className="my_logo title text-w h-6 lg:h-2 sm:h-2 ssm:h-2 mv:h-2 text-3xl">Infinia</h1>
           </a>
           {/* menu icons  */}
           <div
             //  onClick={()=> setMobileNav(!mobileNav)}
             onClick={() => setMobileMenuOpen(true)}
-            className="text-2xl text-white md:hidden lg:text-3xl cursor-pointer"
+            className='text-2xl  md:hidden lg:text-3xl cursor-pointer'
           >
             {mobileNav ? <CgClose /> : <CgMenuRight />}
           </div>
           {/* nav */}
-
           <nav className="hidden md:flex">
             <ul className="md:flex md:gap-x-12">
-              {navigation.map((item, index) => {
-                return (
-                  <li className="flex gap-2" key={index}>
-                    <a
-                      className="capitalize text-white hover:border-b transition-all"
-                      href={item.href}
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                );
-              })}
-              <li className="flex gap-2">
-                <a className="capitalize text-white hover:border-b transition-all hover:cursor-pointer">
-                  Brands
-                </a>
-              </li>
-              {/* <Menu as="div" className="relative inline-block text-left">
+            <NavLink className={`${ bg ? "text:black": "text-white"} capitalize transition-all`} to={"/"} exact activeClassName="active">
+            Home
+          </NavLink>
+            
+              <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 text-white   shadow-sm capitalize  hover:border-b transition-all">
+        <Menu.Button className={`${ bg ? "text:black": "text-white"} inline-flex w-full justify-center gap-x-1.5    capitalize   transition-all`}>
           Brands
           <ChevronDownIcon className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
         </Menu.Button>
@@ -253,11 +241,11 @@ const navigate = useNavigate()
           </div>
         </Menu.Items>
       </Transition>
-    </Menu> */}
+    </Menu>
 
               <Menu as="div" className="relative inline-block text-left">
                 <div>
-                  <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 text-white    shadow-sm capitalize  hover:border-b transition-all">
+                  <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 text-black     capitalize  hover:border-b transition-all">
                     Products
                     <ChevronDownIcon
                       className="-mr-1 h-5 w-5 text-gray-400"

@@ -6,7 +6,7 @@ const Features = () => {
   const { title, subtitle, image, buttonText, items } = features;
 
   return (
-    <section className="section">
+    <section className="section lg:-mt-[73px]">
       <div className="container mx-auto mt-10 lg:mt-12 sm:-mt-20 ssm:-mt-24 md:-mt-20">
         <div className="flex flex-col lg:flex-row lg:gap-[100px]">
           {/* images */}

@@ -38,7 +38,7 @@ const products = [
       name: 'Jalis',
       href: 'jails',
       price: '$35',
-      imageSrc: 'https://5.imimg.com/data5/ANDROID/Default/2022/12/XN/WI/BU/101519832/product-jpeg-500x500.jpg',
+      imageSrc: 'https://5.imimg.com/data5/IOS/Default/2023/4/300558259/ZU/SL/KX/24993926/product-jpeg-500x500.png',
       imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
@@ -70,7 +70,7 @@ const products = [
       name: 'Roofing & Flooring solutions',
       href: 'Roofing_Flooring_Solution',
       price: '$35',
-      imageSrc: 'https://5.imimg.com/data5/ANDROID/Default/2023/2/WK/OT/RD/101519832/product-jpeg-500x500.jpg',
+      imageSrc: 'https://i.postimg.cc/QMKMLg63/roofing.jpg',
       imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {

@@ -3,6 +3,7 @@ import MainRoutes from "./components/MainRoutes"
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import styled from 'styled-components';
+import Footer1 from "./components/Footer1";
 
 const App = () => {
  
@@ -14,7 +15,7 @@ const App = () => {
         <div className="w-full">
           <Header />
           <MainRoutes />
-          <Footer />
+          <Footer1 />
         </div>
  
     </>

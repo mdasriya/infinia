@@ -13,7 +13,7 @@ import "../slider.css"
 
 const ImageSlider = () => {
   return (
-    <div className="border-red p-1 mt-6 w-full">
+    <div className="border-red p-1 mt-6 w-full lg:-mt-[80px]">
       <Swiper
         className="imageSlider mt-10 lg:h-[600px] lg:p-10"
         modules={[Navigation, Pagination, Autoplay]}

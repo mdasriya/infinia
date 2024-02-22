@@ -180,9 +180,12 @@ height: 400px;
     right: 4%;
   }
 }  */
+
+
   @media (min-width: 300px) and (max-width: 399px) {
 .my_logo{
   height: 8px;
+  
 }
 }  
 

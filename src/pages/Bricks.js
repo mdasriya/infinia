@@ -89,14 +89,24 @@ function Bricks() {
             </div>
             <div className="grid grid-cols-2  grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
               <img
-                src="https://5.imimg.com/data5/SELLER/Default/2022/12/NN/LX/UL/101519832/facing-clay-brick-250x250.jpeg"
+                src="https://i.postimg.cc/mr2ygCN5/Hollow-1.png"
                 alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
-                className="rounded-lg bg-gray-100"
+                className="rounded-lg bg-gray-100 h-[200px] w-[400px]"
               />
-              <img
-                src="https://5.imimg.com/data5/SELLER/Default/2023/7/322498121/VX/MU/PX/101519832/hollow-clay-bricks-250x250.png"
+              <img  
+                src="https://apter.in/wp-content/uploads/2019/08/clay-hollow-block-500x500.jpg"
                 alt="Top down view of walnut card tray with embedded magnets and card groove."
-                className="rounded-lg bg-gray-100"
+                className="rounded-lg bg-gray-100 h-[200px] w-[400px]"
+              />
+              <img  
+                src="https://5.imimg.com/data5/SELLER/Default/2022/9/NI/TL/GA/27204020/hollow-clay-bricks.jpg"
+                alt="Top down view of walnut card tray with embedded magnets and card groove."
+                className="rounded-lg bg-gray-100 h-[200px] w-[400px]"
+              />
+              <img  
+                src="https://i.postimg.cc/2SxxY2vW/hollow-clay-brick.png"
+                alt="Top down view of walnut card tray with embedded magnets and card groove."
+                className="rounded-lg bg-gray-100 h-[200px] w-[400px]"
               />
              
             </div>

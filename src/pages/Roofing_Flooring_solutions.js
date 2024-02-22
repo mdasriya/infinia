@@ -85,14 +85,24 @@ const Roofing_Flooring_solutions = () => {
               </div>
               <div className="grid grid-cols-2  grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
                 <img
-                  src="https://5.imimg.com/data5/SELLER/Default/2023/4/298108087/AG/BG/HB/101519832/terracotta-roof-tiles-500x500.jpg"
+                  src="https://i.postimg.cc/QMKMLg63/roofing.jpg"
                   alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
-                  className="rounded-lg bg-gray-100"
+                  className="rounded-lg bg-gray-100 h-[200px]"
                 />
                 <img
                   src="https://5.imimg.com/data5/ANDROID/Default/2023/2/WK/OT/RD/101519832/product-jpeg-500x500.jpg"
                   alt="Top down view of walnut card tray with embedded magnets and card groove."
-                  className="rounded-lg bg-gray-100"
+                  className="rounded-lg bg-gray-100 h-[200px]"
+                />
+                <img
+                  src="https://media.istockphoto.com/id/865474758/photo/background-of-red-brick-roofs-montenegro.jpg?s=612x612&w=0&k=20&c=Fh0as3C-AwLJIK_uGwxzRKmA3-qxY2lh1uJvChaJAo4="
+                  alt="Top down view of walnut card tray with embedded magnets and card groove."
+                  className="rounded-lg bg-gray-100 h-[200px]"
+                />
+                <img
+                  src="https://media.istockphoto.com/id/1503012857/photo/the-roof-of-the-house-is-covered-with-metal-tiles.jpg?s=612x612&w=0&k=20&c=No_Iz-qo3vYyt0ifgnIC8SuxurTCkmlLwDtFr9uF8Hc="
+                  alt="Top down view of walnut card tray with embedded magnets and card groove."
+                  className="rounded-lg bg-gray-100 h-[200px]"
                 />
               
               </div>

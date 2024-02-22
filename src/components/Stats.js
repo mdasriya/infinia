@@ -5,7 +5,7 @@ import React from "react";
 import { stats } from "../data";
 
 const Stats = () => {
-  return <div className="bg-accent rounded-[20px] p-12 selection">
+  return <div className="bg-accent lg:-mt-[100px] rounded-[20px] p-12 selection">
     <div className="flex flex-wrap gap-y-8">
       {stats.map((item,index) => {
         return <div className="min-h-[70px] w-3/6 flex flex-col justify-center odd:border-r lg:flex-1 lg:even:border-r lg:even:last:border-none" key={index}>
